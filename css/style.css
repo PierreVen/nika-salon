@@ -33,7 +33,12 @@ src: local('Avenir LT Std 45 Book'), url('AvenirLTStd-Book.woff') format('woff')
 }
 .header{
 	position: fixed;
-	padding: 60px 66px;
+	background-color: rgb(240, 236, 230);
+	display: inline-block;
+	width: 100%;
+	padding: 25px 0px 5px;
+	text-align: center;
+	
 }
 .header .logo{
 	float: left;
@@ -54,7 +59,7 @@ src: local('Avenir LT Std 45 Book'), url('AvenirLTStd-Book.woff') format('woff')
 	text-decoration: none;
 	font-size: 20px;
 	text-transform: uppercase;
-	font-family: Myriad Pro;
+	font-family: 'Playlist Script';
 }
 
 .slideTitle{
@@ -84,7 +89,7 @@ src: local('Avenir LT Std 45 Book'), url('AvenirLTStd-Book.woff') format('woff')
 	width: 100%;
 	text-align: center;
 	padding: 35px 0;
-	float:left;
+	float: none;
 }
 .content-title h2{
 	font-size: 38px;
@@ -107,13 +112,13 @@ p.content-desc{
 	margin-left: 20%;
 	text-align: center;
 	display: inline-block;
-	float: left;
+	float: none;
 	font-family: Myriad Pro;
 }
 
 .about-content,.desk-img{
 	width: 100%;
-	float: left;
+	
 	display: inline-block;
 	font-family: Myriad Pro;
 	color: #393838;
@@ -121,7 +126,7 @@ p.content-desc{
 }
 .about-desc{
 	width: 50%;
-	float: left;
+	
 	display: inline-block;
 }
 .about-desc p{
@@ -129,7 +134,7 @@ p.content-desc{
 }
 .about-img{
 	width: 45%;
-	float: right;
+	
 	display: inline-block;
 }
 
@@ -144,7 +149,7 @@ p.content-desc{
 .column{
 	width: 30%; 
 	display: inline-block;
-	float: left;
+	
 	text-align: center;
 	color: #393838;
 	font-family: Myriad Pro;
@@ -168,7 +173,7 @@ p.content-desc{
 .tm,.employer{
 	display: inline-block;
 	width: 100%;
-	float: left;
+	float: none;
 	box-sizing: border-box;
 	font-family: Myriad Pro;
 	padding: 25px 15px 0;
